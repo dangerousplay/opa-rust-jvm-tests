@@ -1,0 +1,30 @@
+[package]
+name = "jvm"
+version = "0.1.0"
+authors = ["Dangerousplay <gm.davi.gm@live.com>"]
+edition = "2018"
+links = "libopa"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate_type = ["cdylib"]
+
+[dependencies]
+"metered" = "0.2.0"
+"serde" = "*"
+"serde_json" = "*"
+"rand" = "*"
+"serde_yaml" = "*"
+"jni" = "0.12.3"
+
+[build-dependencies]
+env_logger = "0.6"
+log = "0.4.6"
+rust_swig = "*"
+bindgen = "0.49.0"
+
+
+
+

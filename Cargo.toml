@@ -1,0 +1,15 @@
+[package]
+name = "metrics-actix-poc"
+version = "0.1.0"
+authors = ["Dangerousplay <gm.davi.gm@live.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+"metered" = "0.2.0"
+"serde" = "*"
+"serde_json" = "*"
+"rand" = "*"
+"serde_yaml" = "*"
+color-backtrace = "0.2.0"
